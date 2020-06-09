@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .logo-image{
+        width:200px;
+        height:150px;
+    }
+    header{
+        max-width:100%;
+        display:flex;
+        align-items: center;
+    
+
+    } 
+    
+    ul{
+        list-style: none;
+        display:flex;
+        justify-content: space-around;
+        
+    }
+    nav{
+        width:100%;
+    }
+    .sign-up-page{
+        height:650px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sign-up-form{
+     text-align:center;
+     margin-bottom:25px;
+    }
+
+    .video-page{
+        height:550px;
+        display:flex;
+        justify-content:center;
+        align-content:center;
+        text-align:center;
+    }
+    .multi-sport{
+        height:400px;
+        background-image: url(https://static.miraheze.org/vsrecommendedgameswiki/thumb/3/3e/Sports_logo.svg/1200px-Sports_logo.svg.png)
+    }
+  
+    @media only screen and (max-width:600px){
+        nav{
+           display:name;
+
+        }
+    }
+ 
+</style>
+    
+<header>
+<img class="logo-image" src="data:image/png;base64,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">
+
+    <nav>
+        <ul>
+            <li><a href="multi-sport"> About Us</a></li>
+            <li>Skill Development</li>
+            <li>Elite Training</li>
+            <li>Pro Training</li>
+        </ul>
+    </nav>
+
+</header>
+
+<div class="sign-up-page">
+    <form class="sign-up-form" action="https://www.freecodecamp.com/email-submit">
+        <h1>Sign Up Here</h1>
+        <label>Email Address 
+        <input type="email"/>
+    </label>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</div>
+<div class="video-page">
+    <div>
+        <h1>Benefits of Multi-sport</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Eq_Uoj2wRGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+</div>
+<div class="multi-sport" id="multi-sport"> 
+
+
+</div>
+</html>
